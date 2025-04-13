@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>تسجيل الدخول</h1>
+      <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="login.html" id="loginButton">تسجيل الدخول</a>
+        <a href="register.html" id="register">إنشاء حساب</a>
+        <a href="todo.html" id="toDo">قائمة المهام</a>
+      </nav>
+    </header>
+    <div class="welcom-container">
+      <main>
+        <div class="form-login">
+          <h1>Welcome Back!</h1>
+          <p>
+            We're glad to see you again. Log in to stay on top of your tasks and
+            keep your productivity flowing.
+          </p>
+          <span>
+            <label for="">Email</label>
+            <input id="email" type="email" required />
+          </span>
+          <span>
+            <label for="">password</label>
+            <input id="password" type="password" required />
+          </span>
+          <button onclick="printValue()">login</button>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>temmates fc project © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
